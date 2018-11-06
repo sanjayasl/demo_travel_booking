@@ -5,6 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-wc-vue": "vue-cli-service build --target wc --name train-booking --dest dist/Travel_Booking_Wc src/components/Booking.vue",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
